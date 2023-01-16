@@ -16,3 +16,13 @@ INFO demo.py:11 info
 DEBUG demo.py:12 debug
 INFO _internal.py:224 127.0.0.1 - - [16/Jan/2023 23:36:10] "GET /api/v1.0/index HTTP/1.1" 200 -
 INFO _internal.py:224 127.0.0.1 - - [16/Jan/2023 23:36:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO _internal.py:224 127.0.0.1 - - [16/Jan/2023 23:48:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO _internal.py:224  * Detected change in '/home/hehangzhou/test/Flask_iHome/iHome/models.py', reloading
+INFO _internal.py:224  * Restarting with stat
+WARNING _internal.py:224  * Debugger is active!
+INFO _internal.py:224  * Debugger PIN: 186-998-194
+INFO _internal.py:224  * Detected change in '/home/hehangzhou/test/Flask_iHome/iHome/constants.py', reloading
+INFO _internal.py:224  * Restarting with stat
+WARNING _internal.py:224  * Debugger is active!
+INFO _internal.py:224  * Debugger PIN: 186-998-194
+ERROR __init__.py:98 Error: Directory migrations already exists and is not empty

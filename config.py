@@ -5,7 +5,7 @@ class Config(object):
     SECRET_KEY = 'hhz19991026'
 
     # 数据库
-    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:mysql@127.0.0.1:3306/iHome_python3'
+    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:mysql@127.0.0.1:3306/iHome'
     SQLALCHEMY_TRACK_MODIFICATIONS = True
 
     # redis

@@ -1,7 +1,6 @@
 from . import api
-from iHome import db
+from iHome import db, models
 from flask import current_app
-import logging
 
 
 @api.route('/index')
