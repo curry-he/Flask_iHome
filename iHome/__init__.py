@@ -39,7 +39,7 @@ def create_app(config_name):
     # 利用flask_session,将session保存到redis中
     session = Session(app)
     # 为flask补充csrf防护
-    # CSRFProtect(app)
+    CSRFProtect(app)
     # 为flask添加自定义的转换器
     app.url_map.converters['re'] = RegexConverter
     # 注册蓝图

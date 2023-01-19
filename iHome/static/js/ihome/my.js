@@ -25,7 +25,7 @@ $(document).ready(function(){
             location.href="/login.html"
         }else if (resp.errno==="0"){
             $("#user-name").html(resp.data.name);
-            $("#user-mobile").html(resp.data.phone_num);
+            $("#user-mobile").html(resp.data.mobile);
             if (resp.data.avatar_url){
                 $("#user-avatar").attr("src", resp.data.avatar_url)
             }

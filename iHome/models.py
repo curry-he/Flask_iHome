@@ -42,7 +42,7 @@ class User(BaseModel, db.Model):
         user_info = {
             'user_id': self.id,
             'name': self.name,
-            'phone_num': self.phone_num,
+            'mobile': self.mobile,
             'avatar_url': self.avatar_url
         }
         if self.avatar_url:
