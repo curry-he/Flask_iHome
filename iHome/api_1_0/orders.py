@@ -61,7 +61,7 @@ def save_order():
         house_id=house_id,
         begin_date=start_date,
         end_date=end_date,
-        days = days,
+        days=days,
         house_price=house.price,
         amount=amount
     )
@@ -124,8 +124,7 @@ def accept_reject_order(order_id):
         return jsonify(errno=RET.PARAMERR, errmsg='参数错误')
     # 查询订单信息
     try:
-        order = Order.query.filter(Order.id == order_id, Order.house.user_id == user_id,
-                                   Order.status == 'WAIT_ACCEPT').first()
+        order = Order.query.filter(Order.id == order_id, Order.status == 'WAIT_ACCEPT').first()
     except Exception as e:
         current_app.logger.error(e)
         return jsonify(errno=RET.DBERR, errmsg='数据库异常')

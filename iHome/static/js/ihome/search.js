@@ -51,6 +51,7 @@ function updateHouseData(action) {
     //  获取房屋列表信息
     $.get('/api/v1.0/houses/search',params,function (res) {
         // 能够进入到该回调说明上次的请求执行完成
+        console.log("111")
         house_data_querying = false;
         if(res.errno==='0'){
             // 得到的总页码赋值给全局变量

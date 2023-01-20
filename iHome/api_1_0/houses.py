@@ -296,7 +296,7 @@ def get_house_detail(house_id):
     return resp
 
 
-@api.route("/houses/search", methods=["GET"])
+@api.route("/houses/search")
 def get_house_list():
     start_date = request.args.get('sd', "")  # 开始时间
     end_date = request.args.get('ed', "")  # 结束时间

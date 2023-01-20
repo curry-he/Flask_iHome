@@ -42,7 +42,7 @@
         // remove "?"
         var alipayData = document.location.search.substr(1);
         $.ajax({
-            url:"/api/v1/order/payment",
+            url:"/api/v1.0/order/payment",
             type:"put",
             data:alipayData,
             headers:{
