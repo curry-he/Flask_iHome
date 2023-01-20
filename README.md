@@ -13,7 +13,7 @@
 
 ### 1.需要安装的python package
 
-- [requirements.txt](https://github.com/zhengyuchuan/iHome1.0/blob/master/requirements.txt)
+- [requirements.txt](https://github.com/curry-he/Flask_iHome/blob/master/requirements.text)
 
 
 
@@ -76,7 +76,6 @@
 
 在[constants.py](https://github.com/curry-he/Flask_iHome/blob/master/ihome/constants.py)中配置了一些参数，这些参数可根据需要自行修改。
 
-![alt constants](http://q6gtmshh2.bkt.clouddn.com/uPic/截屏2020-03-10上午8.33.18.png)
 
 
 
@@ -89,7 +88,7 @@
 - cd到该项目目录下
 
 - ```shell
-  celery -A ihome.tasks.task_sms worker
+  celery -A iHome.tasks.task_sms worker
   ```
 
 
