@@ -1,4 +1,4 @@
-# iHome1.0
+# Flask_iHome
 基于Flask实现的租房项目
 
 ## 基于flask实现的c2c租房项目
