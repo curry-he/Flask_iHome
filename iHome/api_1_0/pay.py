@@ -83,6 +83,7 @@ def save_order_payment_result():
         trade_no = alipay_dict.get('trade_no')  # 支付宝的交易号
         try:
             Order.query.filter(Order.id == order_id).update({'status': 'WAIT_COMMENT', 'trade_no': trade_no})
+            # Order.query.filter(Order.id == order_id).update({'status': 'WAIT_COMMENT'})
             db.session.commit()
         except Exception as e:
             current_app.logger.error(e)
