@@ -64,9 +64,9 @@
 
 #### 3.3 项目中数据库配置
 
-- 需要到[config.py](https://github.com/zhengyuchuan/iHome1.0/blob/master/config.py)中配置自己的数据库连接信息。
+- 需要到[config.py](https://github.com/curry-he/Flask_iHome/blob/master/iHome/constants.py)中配置自己的数据库连接信息。
 
-  ![alt config.py中配置信息](http://q6gtmshh2.bkt.clouddn.com/uPic/截屏2020-03-09下午11.03.58.png)
+  ![alt config.py中配置信息])
 
 
 
